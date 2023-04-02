@@ -9,12 +9,12 @@
     adress: json { city: string, street: string}
    ```
 3. Add model Post with relation OneToMany with User
-  `
+  ```
   id: uuid or number
   dateCreation: Date required
   title: string required
   text: string required
-  `
+  ```
 4. Create Data Access Layer with Repository/DAO pattern (see materials from presentation)
 5. Don't expose TypeORM entities out of repositories. Use Domain models and TypeORM entities separately. Come up with some mapping.
 6. Define all tables and relations in project as TypeORM entities
@@ -22,11 +22,11 @@
 8. add endpoint for cretating Post by gettiong userId,title,text
 9. add filter and pagination for user list endpoint
   shold filter by this fields
-  `
+  ```
   age - get all users with such age
   adress.city - get all users with such city
   user.post.title - get all users witch have Post with such title
-  `
+  ```
 
 10.  Create 3 scripts in package.json
 
