@@ -1,13 +1,13 @@
 1. Install TypeORM into your project from previos home work, connect it to Potgres DB.
 2. Extend the User model to this
-  `
+  ```
     id: number or uuid
     username: string required unique
     email: string required
     age: number required
     info: string not required
     adress: json { city: string, street: string}
-   `
+   ```
 3. Add model Post with relation OneToMany with User
   `
   id: uuid or number
