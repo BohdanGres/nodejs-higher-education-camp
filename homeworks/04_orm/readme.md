@@ -1,6 +1,6 @@
 # :house: Homework 4
 
-1. Install TypeORM into your project from previos home work, connect it to Potgres DB.
+1. Install TypeORM into your project from previos home work, connect it to Postgre DB.
 2. Extend the User model to this
   ```
     id: number or uuid
